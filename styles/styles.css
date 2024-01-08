@@ -59,11 +59,12 @@ strong {
   font-weight: 500;
 }
 a {
-  color: #0540F0;
   text-decoration: none;
+  color: #0540F0;
+  border-bottom: solid 1px;
 }
 a:hover {
-  text-decoration: underline;
+  border-bottom: initial;
 }
 .lead {
   font-size: 20px;
